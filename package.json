@@ -2,7 +2,7 @@
   "name": "couluer",
   "displayName": "Couluer Theme",
   "description": "Minimal gruvbox theme",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.83.0"
