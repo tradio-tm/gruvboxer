@@ -1,6 +1,6 @@
 {
-  "name": "couluer",
-  "displayName": "Couluer Theme",
+  "name": "gruvboxer",
+  "displayName": "GruvBoxer",
   "description": "Minimal gruvbox theme",
   "version": "0.1.0",
   "icon": "logo.png",
@@ -8,14 +8,14 @@
     "vscode": "^1.83.0"
   },
   "license": "Apache-2.0",
-  "publisher": "CouluerTheme",
+  "publisher": "Vizora",
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Couluer",
+        "label": "Dark - GruvBoxer",
         "uiTheme": "vs-dark",
         "path": "./themes/Couluer-color-theme.json"
       }
@@ -25,7 +25,7 @@
     "name": "Suleyman",
     "email": "suleyman91002@gmail.com"
   },
-  "homepage": "https://github.com/Vizora/couluer-theme",
+  "homepage": "https://github.com/Vizora/gruvboxer",
   "keywords": [
     "theme",
     "dark",
@@ -33,5 +33,9 @@
     "gruvbox",
     "couluer",
     "vscode"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vizora/gruvboxer.git"
+  }
 }
