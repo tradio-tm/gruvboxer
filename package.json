@@ -2,8 +2,8 @@
   "name": "gruvboxer",
   "displayName": "GruvBoxer",
   "description": "Minimal gruvbox theme",
-  "version": "0.1.0",
-  "icon": "logo.png",
+  "version": "0.2.2",
+  "icon": "photos/logo.png",
   "engines": {
     "vscode": "^1.83.0"
   },
