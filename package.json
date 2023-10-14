@@ -1,0 +1,37 @@
+{
+  "name": "couluer",
+  "displayName": "Couluer Theme",
+  "description": "Minimal gruvbox theme",
+  "version": "0.0.5",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "license": "Apache-2.0",
+  "publisher": "CouluerTheme",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Couluer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Couluer-color-theme.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Suleyman",
+    "email": "suleyman91002@gmail.com"
+  },
+  "homepage": "https://github.com/Vizora/couluer-theme",
+  "keywords": [
+    "theme",
+    "dark",
+    "minimal",
+    "gruvbox",
+    "couluer",
+    "vscode"
+  ]
+}
