@@ -2,7 +2,7 @@
   "name": "gruvboxer",
   "displayName": "GruvBoxer",
   "description": "Minimal gruvbox theme",
-  "version": "0.2.2",
+  "version": "0.3.4",
   "icon": "photos/logo.png",
   "engines": {
     "vscode": "^1.83.0"
@@ -15,9 +15,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark - GruvBoxer",
+        "label": "Dark GruvBoxer",
         "uiTheme": "vs-dark",
-        "path": "./themes/Couluer-color-theme.json"
+        "path": "./themes/dark-theme.json"
+      },
+      {
+        "label": "XCode GruvBoxer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xcode-theme.json"
       }
     ]
   },
@@ -32,7 +37,7 @@
     "minimal",
     "gruvbox",
     "couluer",
-    "vscode"
+    "xcode"
   ],
   "repository": {
     "type": "git",

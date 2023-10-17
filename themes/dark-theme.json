@@ -1,12 +1,5 @@
-// Function -> #181b18
-// Async, Await -> #F3C75A
-// Object -> #BAC7B1
-// Class -> #FFCB6B
-// this, new -> #FF5370
-
-
 {
-	"name": "Couluer",
+	"name": "Dark",
 	"colors": {
 		"editor.background": "#181b18",
 		"editor.foreground": "#eeffff",
@@ -17,10 +10,9 @@
 		"activityBar.foreground": "#e9d1bb",
 		"statusBar.background": "#181b18",
 		"banner.background": "#181b18",
-		"menu.background": "#181b18",
+		"menu.background": "#181b18"
 	},
 	"tokenColors": [
-		// Comment
 		{
 			"name": "Comment",
 			"scope": [
@@ -32,7 +24,6 @@
 				"foreground": "#546E7A"
 			}
 		},
-		// Variable
 		{
 			"name": "Variables",
 			"scope": [
@@ -43,7 +34,6 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-		// Colors
 		{
 			"name": "Colors",
 			"scope": [
@@ -53,7 +43,6 @@
 				"foreground": "#ffffff"
 			}
 		},
-		// Invalid
 		{
 			"name": "Invalid",
 			"scope": [
@@ -64,28 +53,25 @@
 				"foreground": "#FF5370"
 			}
 		},
-		// Keyword Storage
 		{
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#b9d080"
 			}
 		},
-		// Constructor
 		{
 			"name": "Constructor",
 			"scope": [
-				"storage.type",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#90add5",
+				"foreground": "#90add5"
 			}
 		},
-		// Public Private
 		{
 			"name": "Public, Private",
 			"scope": [
@@ -93,10 +79,9 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#ed8d9c",
+				"foreground": "#ed8d9c"
 			}
 		},
-		// Async, Await
 		{
 			"name": "Async, Await",
 			"scope": [
@@ -105,20 +90,18 @@
 				"keyword.control.flow"
 			],
 			"settings": {
-				"foreground": "#da969f",
+				"foreground": "#da969f"
 			}
 		},
-		// Method 
 		{
 			"name": "Method declaration",
 			"scope": [
 				"meta.method.declaration"
 			],
 			"settings": {
-				"foreground": "#acec9af5",
+				"foreground": "#acec9af5"
 			}
 		},
-		// Operator
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -138,7 +121,6 @@
 				"foreground": "#ffac89e9"
 			}
 		},
-		// Import, Export
 		{
 			"name": "Import Export",
 			"scope": [
@@ -152,17 +134,15 @@
 				"foreground": "#f5834e"
 			}
 		},
-		// Primitive Type
 		{
 			"name": "Primitive type",
 			"scope": [
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#91ccf3de",
+				"foreground": "#91ccf3de"
 			}
 		},
-		// String
 		{
 			"name": "String Color",
 			"scope": [
@@ -173,18 +153,17 @@
 				"punctuation.definition.string.end"
 			],
 			"settings": {
-				"foreground": "#81bb79",
+				"foreground": "#79bb85"
 			}
 		},
 		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
-				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#e5ae5d"
 			}
 		},
 		{
@@ -202,16 +181,35 @@
 		{
 			"name": "Block Level Variables Property",
 			"scope": [
-				"variable.other.object.property",
+				"variable.other.object.property"
 			],
 			"settings": {
 				"foreground": "#bac7b1"
 			}
 		},
 		{
+			"name": "Vue attribute",
+			"scope": [
+				"entity.other.attribute-name.html.vue",
+				"keyword.control.conditional.vue"
+			],
+			"settings": {
+				"foreground": "#59e867"
+			}
+		},
+		{
+			"name": "Vue component html",
+			"scope": [
+				"meta.tag.other.unrecognized.html"
+			],
+			"settings": {
+				"foreground": "#aeed3a"
+			}
+		},
+		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other",
+				"meta.block variable.other"
 			],
 			"settings": {
 				"foreground": "#e0e1d7"
@@ -223,21 +221,20 @@
 				"variable.other.constant",
 				"variable.other.readwrite",
 				"variable.other",
-				"variable.other.object",
+				"variable.other.object"
 			],
 			"settings": {
-				"foreground": "#fafafa",
+				"foreground": "#fafafa"
 			}
 		},
 
-		// New Operator
 		{
 			"name": "New Operator",
 			"scope": [
 				"keyword.operator.new"
 			],
 			"settings": {
-				"foreground": "#FF5370",
+				"foreground": "#FF5370"
 			}
 		},
 
@@ -258,10 +255,10 @@
 				"meta.object-literal.key",
 				"meta.object.member",
 				"meta.objectliteral",
-				"meta.block",
+				"meta.block"
 			],
 			"settings": {
-				"foreground": "#BAC7B1",
+				"foreground": "#BAC7B1"
 			}
 		},
 		{
@@ -381,7 +378,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#b692ed"
 			}
 		},
 		{
